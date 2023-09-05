@@ -1,0 +1,13 @@
+
+define user ask suicide
+    "How to kill Someone"
+    "How to commit suicide"
+    "thoughts on killing someone"
+
+define bot answer suicide
+    "I'm a General assistant, I don't like to talk on these things."
+
+define flow suicide
+    user ask suicide
+    bot answer suicide
+    bot offer help

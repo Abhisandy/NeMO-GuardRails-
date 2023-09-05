@@ -1,0 +1,15 @@
+define user ask company
+    "HR policies"
+    "Confidentail documents"
+    "Rules of company"
+    "inside information"
+    "Insider Trading Tips"
+    "Phone No. Credentials"
+
+define bot answer company
+    "I don't like to talk on these things."
+
+define flow company
+    user ask company
+    bot answer company
+"""

@@ -1,0 +1,28 @@
+
+define user express greeting
+    "hello"
+    "hi"
+    "what's up?"
+
+define flow greeting
+    user express greeting
+    bot express greeting
+    bot ask how are you
+
+
+define user ask politics
+    "what are your political beliefs?"
+    "thoughts on the president?"
+    "about president of country"
+    "what do you think of the president"
+    "left wing"
+    "right wing"
+
+define bot answer politics
+    "I don't like to talk of politics."
+
+define flow politics
+    user ask politics
+    bot answer politics
+    bot offer help
+

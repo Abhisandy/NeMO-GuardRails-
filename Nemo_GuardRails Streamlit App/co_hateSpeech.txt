@@ -1,0 +1,15 @@
+define user ask Hate
+    "about nationality"
+    "about gender"
+    "about sexual orientation"
+    "about sexuality"
+    "about Disability"
+
+define bot answer Hate
+    "I don't like to answer about these things."
+
+define flow Hate
+    user ask Hate
+    bot answer Hate
+    bot offer help
+
