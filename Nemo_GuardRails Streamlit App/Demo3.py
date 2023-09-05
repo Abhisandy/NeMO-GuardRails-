@@ -7,8 +7,8 @@ import openai
 
 load_dotenv()
 
-os.environ["OPENAI_API_KEY"] = "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"
-openai.api_key = "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"
+#os.environ["OPENAI_API_KEY"] = "YOUR_OPENAI_KEY"
+openai.api_key = "YOUR_OPENAI_KEY"
 
 
 
